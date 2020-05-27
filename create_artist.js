@@ -14,6 +14,6 @@ db.Artist.create({
     Artist_Name: name
 })
     .then(function (artist) {
-        // console.log(`Created artist with ID ${artist.id}.`)
+       
         console.log(artist)
     })
